@@ -1,1 +1,145 @@
-<mxfile host="app.diagrams.net" modified="2021-10-09T06:21:03.304Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" version="15.1.0" etag="0llimOrh8ZmwQw8wLMKp" type="github"><diagram id="3Sb7jG6Yc-vRg8P855_o">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-09T08:18:40.858Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="dXhYOC6lTncxcW3UaGek" version="15.1.0" type="github">
+  <diagram id="3Sb7jG6Yc-vRg8P855_o" name="Page-1">
+    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-2" value="labour_tab" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="70" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-9" value="lab_id , lab_name , mob_num , email , skills" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="540" y="100" width="240" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-11" value="booked , no_of_compl" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="240" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-12" value="contractor_id , mobile_no , name,&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="100" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-13" value="contractor_id(fk)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="270" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-14" value="contractor_tab" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="195" y="50" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-15" value="(pk)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="190" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-16" value="contrac_id , location , reporting_date , end_date , no_of_workers," style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="220" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-17" value="request_table" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="190" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-19" value="complaints" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="120" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-20" value="lab_id , contractor_id , complaint" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="340" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-21" value="labor_complaint&amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="300" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-24" value="lab_id , contractor_id , complaint" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="470" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-25" value="contractor_compl" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="430" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-26" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="50" y="560" width="690" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-27" value="Login" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="590" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-28" value="signup" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="590" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-30" value="website introduction" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="690" width="530" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-31" value="logo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-34" value="password," style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="120" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-35" value="password" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="300" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-36" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1320" width="690" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-37" value="labor_landingPage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1280" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-38" value="logout" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1340" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-39" value="labour_complaint_form" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1340" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-40" value="logo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1340" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-41" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="1430" width="305" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-42" value="booked -&amp;gt; info" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1460" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-43" value="else , not assigned any work" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1500" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-44" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1740" width="720" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-45" value="contractor_land_page" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1700" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-46" value="complaint" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1760" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-47" value="logout" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1760" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-48" value="logo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1755" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-50" value="no_of_lbaor" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="145" y="1870" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-51" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1870" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-52" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="425" y="1870" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-53" value="wage_per_day" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1880" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-54" value="Request_labour" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-55" value="active_contract" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1755" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-57" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="65" y="2160" width="510" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-59" value="no" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="2200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-63" value="label" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="2220" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-64" value="status," style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="250" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DbflI9-Nu2HDeEe6TEz5-65" value="req_id(pk)," style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="220" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
